@@ -1,0 +1,134 @@
+
+# should keep same to the C# script variable name in Unity
+CLIENT_ID = "clientID"
+ENTITY_ID = 'entityID'
+CODE = 'code'
+
+PLAYER_HEALTH = 'playerHealth'
+MONSTER_HEALTH = 'monsterHealth'
+LOCATION = 'location'
+ROTATION = 'rotation'
+MONSTER_TYPE = 'monsterType'
+MONSTER_ENTITY = 'monsterEntity'
+MISSILE_ENTITY = 'missileEntity'
+MONSTER_ID = 'monsterID'
+MISSILE_ID = 'missileID'
+PLAYER_DAMAGE = 'playerDamage'
+MONSTER_DAMAGE = 'monsterDamage'
+PLAYER_ID = 'playerID'
+TRAP_ID = 'trapID'
+SCORE = 'score'
+MONEY = 'money'
+TOWARD_VECTOR = 'towardVector'
+PLAYER_ENTITIES = 'playerEntities'
+MONSTER_ENTITIES = 'monsterEntities'
+MISSILE_ENTITIES = 'missileEntities'
+TRAP_ENTITIES = 'trapEntities'
+PUMPKIN_ENTITIES = 'pumpkinEntities'
+SHOOT_POINT = 'shootPoint'
+TRAP_TYPE = 'trapType'
+TRAP_ENTITY = 'trapEntity'
+TRAP_LEVEL = 'trapLevel'
+NEXT_LEVEL_TIME = 'nextLevelTime'
+PLAYER_NAME = 'playerName'
+NAME = 'name'
+HISTORY_SCORE = 'historyScore'
+USER_LEVEL = 'userLevel'
+NEEDLE_TRAP_LEVEL = 'needleTrapLevel'
+MISSILE_LEVEL = 'missileLevel'
+ICE_TRAP_LEVEL = 'iceTrapLevel'
+EXP = 'exp'
+SKILL_TYPE = 'skillType'
+HIGHEST_SCORE = 'highestScore'
+
+PLAYER_ENTITY_TYPE = 'player'
+MONSTER_ENTITY_TYPE = 'monster'
+TRAP_ENTITY_TYPE = 'trap'
+MISSILE_ENTITY_TYPE = 'missile'
+
+NEEDLE_TRAP_TYPE = 0
+ICE_TRAP_TYPE = 1
+
+ZOMBUNY_TYPE = 0
+ZOMBEAR_TYPE = 1
+HELLEPHANT_TYPE = 2
+
+MONSTER_INIT_HEALTH = {
+    ZOMBUNY_TYPE: 100,
+    ZOMBEAR_TYPE: 150,
+    HELLEPHANT_TYPE: 300
+}
+
+MONSTER_SPEED = {
+    ZOMBUNY_TYPE: 4.0,
+    ZOMBEAR_TYPE: 3.0,
+    HELLEPHANT_TYPE: 3.0
+}
+
+MISSILE_SPEED = 25.0
+
+MONSTER_SCORE = {
+    ZOMBUNY_TYPE: 20,
+    ZOMBEAR_TYPE: 20,
+    HELLEPHANT_TYPE: 50
+}
+
+MONSTER_MONEY = {
+    ZOMBUNY_TYPE: 5,
+    ZOMBEAR_TYPE: 5,
+    HELLEPHANT_TYPE: 15
+}
+
+MONSTER_EXP = {
+    ZOMBUNY_TYPE: 10,
+    ZOMBEAR_TYPE: 10,
+    HELLEPHANT_TYPE: 30
+}
+
+PLAYER_LEVEL_NEED_EXP = [0, 50, 150, 300, 500, 750, 1050, 1400, 1800, 2250, 2750]
+
+PLAYER_INIT_HEALTH = 100
+
+SEND_SINGLE = 1
+SEND_BROADCAST = 2
+SEND_EXCEPT = 3
+
+ICE_TRAP_LEVEL_UP = 1
+NEEDLE_TRAP_LEVEL_UP = 2
+MISSILE_LEVEL_UP = 3
+
+MONSTER_PLAYER_NEAREST_DISTANCE = 1
+HELLEPHANT_ATTACK_DISTANCE = 15
+HELLEPHANT_ATTACK_TICK_NUM = 30
+
+MONSTER_DAMAGE_VALUE = 10
+PUMPKIN_DAMAGE_VALUE = 10
+
+MISSILE_MAX_DISTANCE = 100
+MISSILE_EXPLOSION_DISTANCE = 3
+MISSILE_DAMAGE = [0, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140]
+
+MONSTER_PATH_FIND_TICK_NUM = 2
+
+PLAYER_INIT_MONEY = 60
+
+LEVELS = [
+    [0, 0, 1, 2],
+    [0, 0, 1, 1, 2],
+    [0, 0, 0, 1, 1, 1, 2],
+    [0, 0, 0, 0, 1, 1, 1, 2, 2],
+    [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2]
+]
+
+MONSTER_GEN_LOCATION = [
+    [0, -7.6, 35],
+]
+
+ICE_TRAP_IMPACT_SPEED_FACTOR = [0, 0.6, 0.57, 0.54, 0.51, 0.48, 0.45, 0.42, 0.39, 0.36, 0.33]
+NEED_TRAP_HURT_VALUE = [0, 15, 17, 19, 20, 22, 24, 26, 28, 30, 32]
+
+TRAP_MONEY = {
+    NEEDLE_TRAP_TYPE: 30,
+    ICE_TRAP_TYPE: 30
+}
+

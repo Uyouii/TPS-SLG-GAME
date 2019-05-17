@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1670848068381046}
+  m_IsPrefabParent: 1
+--- !u!1 &1670848068381046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4495521100262700}
+  - component: {fileID: 114873972376334156}
+  - component: {fileID: 114016459071754964}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4495521100262700
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1670848068381046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114016459071754964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1670848068381046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92cb3c06ae303743a7ddb59984e978a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  Zombunny: {fileID: 1663964128402948, guid: e5171f72421770240bd7c3989fe351e3, type: 2}
+  Zombear: {fileID: 100000, guid: ea3c2728ef33e3a4d99527a86cda6465, type: 2}
+  Hellephant: {fileID: 153412, guid: 548c56f4bcf4db24b8aa057e9846a005, type: 2}
+  Missile: {fileID: 1802841495763206, guid: 0afb915ab31fa2e4bbdcb2139aef22f5, type: 2}
+  ExplosionAir: {fileID: 1518853674026010, guid: a2c72b88e3197ca4c89b36790a2dbbf5,
+    type: 2}
+  OtherPlayer: {fileID: 1601194779382968, guid: d0aee5f90de7d9a4a93fed1ea8410305,
+    type: 2}
+  NeedleTrap: {fileID: 1155082034599790, guid: b72c5f6095221084c823c11e7661b775, type: 2}
+  IceTrap: {fileID: 1312884843988462, guid: 49998ddcb8a095f4d87e0a0b891e908a, type: 2}
+  Pumpkin: {fileID: 1924802134989274, guid: 1830420fd6e771d4bb9524fbfb308a99, type: 2}
+--- !u!114 &114873972376334156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1670848068381046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d75db8d1c3a83b40957223a83d65f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

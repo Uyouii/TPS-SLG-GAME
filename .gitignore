@@ -1,0 +1,19 @@
+# python
+*.pyc
+
+# VS
+Debug/
+Release/
+.vs/
+
+*.vcxproj
+*.filters
+*.sln
+*.vcxproj.user
+
+#unity
+
+*.csproj
+UnityPackageManager/
+Temp/
+Library/
