@@ -1,5 +1,20 @@
 # Trick or Treat
 
+## 运行
+
+**服务端**
+
+要求: python 2.7
+
+```
+python server/main.py
+```
+
+**客户端**
+
+Unity里运行login场景或者打包直接运行即可。
+
+
 # 游戏实现功能
 
 ## 服务端
