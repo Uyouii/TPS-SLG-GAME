@@ -162,7 +162,7 @@ public class NetworkHost {
 
         if (begin < dataLength)
         {
-            Array.Copy(dataBuffer, 0, dataBuffer, begin, dataLength - begin);
+            Array.Copy(dataBuffer, begin, dataBuffer, 0, dataLength - begin);
         }
         dataBufferLength = dataLength - begin;
     }
